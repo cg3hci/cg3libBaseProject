@@ -39,7 +39,7 @@ CONFIG += c++11
 #   CG3_CINOLIB             -- CinoLib interface
 #
 # Example:  CONFIG += CG3_CORE CG3_VIEWER CG3_DATA_STRUCTURES CG3_MESHES
-CONFIG += CG3_CORE
+CONFIG += CG3_CORE CG3_VIEWER CG3_DATA_STRUCTURES CG3_MESHES
 
 # Include the chosen modules
 include (cg3lib/cg3.pri)
